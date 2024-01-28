@@ -1,58 +1,47 @@
-# Jal Jeevan
+# BusGo Application
 
-Welcome to the Jal Jeevan Flutter project repository! This Android application aims to address water-related issues locally by allowing users to raise problems through an intuitive interface. The prolems will be submitted to the local authorities to take a look and solve them. The app utilizes Flutter for the front-end, Firebase for the database, and OpenStreetMap for mapping functionalities.
+BusGo is a comprehensive mobile application designed to provide real-time information about bus services. This application utilizes a variety of technologies, including Android Studio, Flutter, OpenCV, GPS, and Google Translate, to enhance the user experience and offer advanced features.
 
 ## Features
 
-### Main Screen
+### 1. Real-Time Bus Status
 
-The main screen of the application comprises a map showcasing the user's current location and a sliding-up panel for easy access to key features.
+- **Live Bus Status:** BusGo provides real-time updates on the current location and status of buses. Users can track the movement of buses on the map for accurate arrival times.
 
-- **Map**: Displays the map with the user's current location.
-- **Sliding-up Panel**: Contains buttons for raising a problem, accessing app information, viewing problems, and checking user details.
+- **Crowd Monitoring:** The application uses OpenCV to estimate the crowd inside the bus, helping users make informed decisions about their travel.
 
-### Raise a Problem
+### 2. GPS Tracking
 
-By clicking the "Raise a Problem" button, users are directed to a form screen to provide details about the water-related issue.
+- **Bus Tracking:** GPS technology is employed to track the buses accurately. Users can see the live location of the bus on the map within the application.
 
-- **Form Fields**: Name, Number, Problem Type, Description, Severity, Location, and Image upload.
-- **Submit Button**: Adds the entered data to the Firebase database.
+### 3. Multilingual Support
 
-### App Information
+- **Multi-Language Interface:** BusGo supports multiple languages to cater to a diverse user base. Users can choose their preferred language for a personalized experience.
 
-This section provides information about the application, including its purpose and features.
+### 4. Chat Bot Assistance
 
-### User Information
+- **Interactive Chat Bot:** A chat bot is integrated into the application to assist users with queries, provide information about bus routes, and offer general assistance.
 
-Displays basic details about the user, including authentication credentials and a list of problems they have raised.
+### 5. Emergency SOS Button
 
-### Problems Screen
-
-Navigating to this screen presents a list of all problems raised through the app.
-
-- **Locate on Map Button**: Takes the user to the map screen with markers indicating the locations of the raised problems.
-
-### Map Screen
-
-Utilizes OpenStreetMap to display the locations of water-related problems. Clicking on a problem provides detailed information.
+- **Emergency Situations:** For emergency situations, BusGo features an SOS button that allows users to quickly seek help or report emergencies. This button triggers an alert to emergency services or designated contacts.
 
 ## Technology Stack
 
-- **Framework**: Flutter
-- **Database**: Firebase
-- **Mapping**: OpenStreetMap
-- **IDE**: Android Studio
+- **Android Studio:** The primary integrated development environment (IDE) for building the Android application.
+
+- **Flutter:** A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
+
+- **OpenCV:** Open-source computer vision library used for crowd estimation within the bus.
+
+- **GPS:** Global Positioning System technology for accurate real-time bus tracking.
+
+- **Google Translate:** Integration for providing a multi-language interface.
 
 ## Getting Started
 
-To run the Jal Jeevan app locally, follow these steps:
+To run the BusGo application on your local machine, follow these steps:
 
-1. Clone the repository.
-2. Open the project in Android Studio.
-3. Ensure Flutter and Dart plugins are installed.
-4. Set up a Firebase project and link it to the app.
-5. Run the app on an emulator or physical device.
-
-Feel free to explore and contribute to the project. If you encounter any issues or have suggestions, please open an issue or create a pull request.
-
-Happy Programming!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/BusGo.git
