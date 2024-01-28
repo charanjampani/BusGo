@@ -1,0 +1,26 @@
+{
+    "language": "English",
+    "@language":{
+    "description": "The current language"
+    },
+    "buslist": "Bus List",
+    "@buslist":{
+    "description": "The bus list"
+    },
+    "userinf": "User Info",
+    "@userinf":{
+    "description": "The user information"
+    },
+    "selectlang": "change language",
+        "@selectlang":{
+        "description": "for selecting their language"
+    },
+    "findbus": "Find a Bus",
+    "@findbus":{
+    "description": "for finding bus"
+    },
+    "busno": "Enter bus number",
+        "@busno":{
+        "description": "entered bus number"
+    }
+}
